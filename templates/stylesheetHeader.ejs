@@ -1,0 +1,16 @@
+/**
+ * Theme Name: <%= config.name %>
+ * Theme URI: <%= config.uri %>
+ * Description: <%= config.description %>
+ * Author: <%= config.author %>
+ * Author URI: <%= config.author_uri %>
+ * Version: <%= config.version_number %>
+ * License: <%= config.license_name %>
+ * License URI: <%= config.license_uri %>
+<% if(config.tags.length > 0) { -%>
+ * Tags: <%= config.tags.join(', ') %>
+<% } -%>
+<% if(config.comments) { -%>
+ * Comments: <%= config.comments %>
+<% } -%>
+ */
