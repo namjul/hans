@@ -13,4 +13,4 @@
 var flatiron = require('flatiron'),
     path = require('path');
 
-require('../lib').start();
+require('../lib/cli').start();
