@@ -1,5 +1,6 @@
 {
   "name": "hans",
+  "preferGlobal": "true",
   "description": "Wordpress Theme development in the CLI",
   "keywords": [
     "wordpress",
@@ -8,7 +9,10 @@
   ],
   "author": "Samuel Hobl <nam@hobl.at>",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namjul/hans.git"
+  },
   "dependencies": {
     "flatiron": "0.2.x",
     "watch": "~0.5.x",
@@ -37,5 +41,6 @@
   "bin": {
     "hans": "./bin/hans"
   },
-  "engines": ">= 0.6.0 < 0.7.0"
+  "engines": ">= 0.6.0 < 0.8.0",
+  "license": "MIT"
 }
