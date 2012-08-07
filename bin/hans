@@ -1,15 +1,5 @@
 #!/usr/bin/env node
-
-/**
- * hans - Wordpress theme development cli tool
- *
- * Samuel Hobl <nam@hobl.at>
- * MIT License.
- */
-
-/**
- * Dispatches the argv to the application.
- */
+#
 var flatiron = require('flatiron'),
     path = require('path');
 
